@@ -57,7 +57,7 @@ class Main extends React.Component {
             <img width="80px" src="../static/images/angular.png" alt="Angular"></img>
             <img width="80px" src="../static/images/ionic.png" alt="Ionic"></img>
 
-            <p className="technames">ReactJS, NodeJS, JavaScript, NextJS, HTML, CSS, AWS, Angular, Ionic </p>
+            <p className="technames"><a href="https://pt-br.reactjs.org/">ReactJS</a>, <a href="https://nodejs.org/en/">NodeJS</a>, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://nextjs.org/">Next JS</a>, <a href="https://www.google.com/search?sxsrf=ALeKk02l-58tQcNPIiFQW6zrOhRzgcAlqg%3A1585432291717&ei=48Z_Xo6VK6PD5OUPna6N4Ak&q=html&oq=html&gs_lcp=CgZwc3ktYWIQAzIECAAQQzIECAAQQzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgQIABBHOgQIABAKUK4JWPMMYNoQaABwAngAgAGIAYgBjAKSAQMwLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwjOksDEk77oAhWjIbkGHR1XA5wQ4dUDCAs&uact=5">HTML</a>, <a href="https://www.google.com/search?q=CSS&oq=CSS&aqs=chrome..69i57j0l4j69i60l2j69i61.446j0j7&sourceid=chrome&ie=UTF-8">CSS</a>, <a href="https://aws.amazon.com/pt/">AWS</a>, <a href="https://angular.io/">Angular</a>, <a href="https://ionicframework.com/">Ionic</a></p>
           </div>
 
           {close}
