@@ -66,8 +66,24 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Quem Somos</h2>
 
-          <p>Me edita pra alterar o Quem Somos</p>
-
+          <p>
+            <h2>Lucas Mendes</h2>
+             <span className="image main"><img src="/static/images/lucas.jpg" alt="" /></span>
+          <p>Lucas Mendes, Londrinense, 20 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web e Mobile utilizando ferramentas como: NodeJS, JavaScript, NextJS, ReactJS, Angular, Ionic, HMTL, CSS, entre outras. Trabalha na BRID Soluções na área de Qualidade de Dados como analista, densenvolvendo em ferramentas QlikView, QlikSense, 
+              Power BI e Alteryx.
+               Para mais informações do Lucas:  https://www.linkedin.com/in/lucas-m-martins/ 
+                                                https://github.com/mendsxx/BlogProducao  
+          ______________________________________________________________________
+          <h2>Daniel Moreira</h2>
+            <span className="image main"><img src="/static/images/perfil.jpg" alt="" /></span>
+                <p> Daniel Moreira, Sertanopolense, 18 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web  utilizando ferramentas como: Angular, NextJS, ReactJS, NodeJS, HMTL, entre outras. Trabalha na JMTI Tecnologia e Soluções e na SDR Viagens.
+                Para mais informações do Daniel: https://www.linkedin.com/in/daniel-moreira-68177315a/
+                                                 https://github.com/danielmoreiraunifil 
+                 </p>
+          </p>
+          ______________________________________________________________________
+          <h2>Felipe Lonni</h2> 
+         </p>
           {close}
         </article>
 
