@@ -17,15 +17,37 @@ class Main extends React.Component {
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Blog</h2>
         
-         <p>Me edita pra alterar o Blog</p>
+        <div>
+          <h3>O que é Tech Stack?</h3>
+            <p>
+              Conjunto de tecnologias que uma organização usa para criar um aplicativo Web ou móvel.
+              É uma combinação de linguagens de programação, estruturas, bibliotecas, padrões, servidores, 
+              soluções de UI / UX, software e ferramentas usadas por seus desenvolvedores. 
+            </p>
+            <p>
+                28/03/2020 - Lucas Martins - Adaptado de <a href="https://stackshare.io/stacks">stackshare.</a>  
+            </p>
+        </div>
+
+        <div>
+          <h3>Exemplo</h3>
+            <p>
+              Breve descrição sobre o tema apresentado
+            </p>
+            <p>
+                01/01/2010 - Autor - Fonte <a href="Link">Nome da fonte.</a>  
+            </p>
+        </div>
+          
 
           {close}
         </article>
 
         <article id="techstack" className={`${this.props.article === 'techstack' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Tech Stack</h2>
+          
 
-          <p>Me edita pra alterar o Tech Stack</p>
+         
 
          {close}
         </article>

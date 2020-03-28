@@ -19,8 +19,7 @@ const Header = (props) => (
                 <p>Neste Blog você pode conhecer um pouco mais sobre desenvolvimento Web.</p>
             </div>
         </div>
-       
-    </header>
+      </header>
 )
 
 Header.propTypes = {
