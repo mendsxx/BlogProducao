@@ -1,10 +1,4 @@
 import PropTypes from 'prop-types';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
-import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook'
-import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram'
-import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
-
 
 class Main extends React.Component {
   render() {
@@ -17,7 +11,7 @@ class Main extends React.Component {
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Blog</h2>
         
-        <div>
+        <div id="post-01">
           <h3>O que é Tech Stack?</h3>
             <p>
               Conjunto de tecnologias que uma organização usa para criar um aplicativo Web ou móvel.
@@ -28,26 +22,31 @@ class Main extends React.Component {
                 28/03/2020 - Lucas Martins - Adaptado de <a href="https://stackshare.io/stacks">stackshare.</a>  
             </p>
         </div>
-
-        <div>
-          <h3>Exemplo</h3>
-            <p>
-              Breve descrição sobre o tema apresentado
-            </p>
-            <p>
-                01/01/2010 - Autor - Fonte <a href="Link">Nome da fonte.</a>  
-            </p>
-        </div>
-          
+         
 
           {close}
         </article>
 
         <article id="techstack" className={`${this.props.article === 'techstack' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Tech Stack</h2>
-          
+        <div>
+          <h3>Ferramentas utilizadas pelo nosso time! </h3>   
 
-         
+            <img width="105px" src="../static/images/js.png"      alt="JavaScript"></img>
+
+            <img width="105px" src="../static/images/next.png"    alt="Next.JS"></img>
+
+            <img width="105px" src="../static/images/html.png"    alt="Html5"></img>
+
+            <img width="105px" src="../static/images/css.png"     alt="Css"></img>
+
+            <img width="105px" src="../static/images/aws.png"     alr="Aws"></img>
+
+            <img width="105px" src="../static/images/angular.png" alt="Angular"></img>
+
+            <img width="105px" src="../static/images/ionic.png"   alt="Ionic"></img>  
+        
+        </div>          
 
          {close}
         </article>
