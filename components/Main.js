@@ -47,20 +47,17 @@ class Main extends React.Component {
           <div>
             <h3>Ferramentas utilizadas pelo nosso time! </h3>
 
-            <img width="105px" src="../static/images/js.png" alt="JavaScript"></img>
+            <img width="80px" src="../static/images/react.png" alt="ReactJS"></img>
+            <img width="80px" src="../static/images/node.png" alt="NodeJS"></img>
+            <img width="80px" src="../static/images/js.png" alt="JavaScript"></img>
+            <img width="80px" src="../static/images/next.png" alt="Next.JS"></img>
+            <img width="80px" src="../static/images/html.png" alt="Html5"></img>
+            <img width="80px" src="../static/images/css.png" alt="Css"></img>
+            <img width="80px" src="../static/images/aws.png" alr="Aws"></img>
+            <img width="80px" src="../static/images/angular.png" alt="Angular"></img>
+            <img width="80px" src="../static/images/ionic.png" alt="Ionic"></img>
 
-            <img width="105px" src="../static/images/next.png" alt="Next.JS"></img>
-
-            <img width="105px" src="../static/images/html.png" alt="Html5"></img>
-
-            <img width="105px" src="../static/images/css.png" alt="Css"></img>
-
-            <img width="105px" src="../static/images/aws.png" alr="Aws"></img>
-
-            <img width="105px" src="../static/images/angular.png" alt="Angular"></img>
-
-            <img width="105px" src="../static/images/ionic.png" alt="Ionic"></img>
-
+            <p className="technames">ReactJS, NodeJS, JavaScript, NextJS, HTML, CSS, AWS, Angular, Ionic </p>
           </div>
 
           {close}
