@@ -47,26 +47,13 @@
 			}
 		}
 
-		
-		.logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid _size(border-width) _palette(border);
-			border-radius: 100%;
-			padding-top: 18px;
-			padding-right: 3px;
-			
-		}
-
-
-
 		.content {
 			border-style: solid;
 			border-color: _palette(border);
 			border-top-width: _size(border-width);
 			border-bottom-width: _size(border-width);
 			max-width: 100%;
+			margin-top: 10%;
 
 			.inner {
 				@include vendor('transition', (
