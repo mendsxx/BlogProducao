@@ -16,7 +16,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Bem-Vindo!</h1>
-                <p>Neste Blog você pode conhecer um pouco mais sobre desenvolvimento Web.</p>
+                <p>Neste Blog você pode conhecer um pouco mais sobre o portifólio de nossos desenvolvedores e algumas curiosidades sobre desenvolvimento Web e Mobile.</p>
             </div>
         </div>
       </header>
