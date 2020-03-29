@@ -31,7 +31,7 @@ class Main extends React.Component {
           <div className="poststyle"> {/* Utilizar className*/}
             <h3>A importancia do Quem Somos</h3>
             <p>
-              Quem Somos tem o intuito de fazer sua apresentação pessoal ou do seu negócio, mostrandando para os visualizadores da página um pouco sobre sua vida ou de sua empresa, para que conheça um pouco da sua História.  
+              Quem Somos tem o intuito de fazer sua apresentação pessoal ou do seu negócio, mostrandando para os visualizadores da página um pouco sobre sua vida ou de sua empresa, para que conheça um pouco da sua História.
             </p>
             <p className="postby"> {/* Utilizar className*/}
                 29/03/2020 - Daniel Moreira - Inspirado  <a href="https://www.ladoaladopelavida.org.br/historia">Quem Somos - Lado a Lado pela Vida.</a>
@@ -39,16 +39,16 @@ class Main extends React.Component {
           </div>
           {/* FIM - ESTRUTURA POST */}
 
-           {/* INICIO - ESTRUTURA POST */}
-           <div className="poststyle"> {/* Utilizar className*/}
+          {/* INICIO - ESTRUTURA POST */}
+          <div className="poststyle"> {/* Utilizar className*/}
             <h3> O QUE SÃO PROJETOS PESSOAIS?</h3>
             <p>
-             Bom o que são projetos pessoais:é um processo ou objetivo que gere satisfação e motivação a um profissional fora de seu trabalho. Pode ser a execução de uma nova ideia, um hobby ou uma viagem, etc.
-             Um projeto pessoal ajuda a testar ideias, a criar caminhos e a realizar novos feitos! gera satisfação e motivação a um profissional fora de seu trabalho. 
+              É um processo ou objetivo que gere satisfação e motivação a um profissional fora de seu trabalho. Pode ser a execução de uma nova ideia, um hobby ou uma viagem, etc.
+              Um projeto pessoal ajuda a testar ideias, a criar caminhos e a realizar novos feitos! gera satisfação e motivação a um profissional fora de seu trabalho.
 
             </p>
             <p className="postby"> {/* Utilizar className*/}
-                29/03/2020 - Felipe Lonni - Adaptado <a href="https://anajacobs.com.br/blog/2013/09/criando-um-projeto-pessoal/">Projetos pessoais.</a>
+                29/03/2020 - Felipe Lonni - Adaptado de <a href="https://anajacobs.com.br/blog/2013/09/criando-um-projeto-pessoal/">anajacobs.</a>
             </p>
           </div>
           {/* FIM - ESTRUTURA POST */}
@@ -81,47 +81,54 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Quem Somos</h2>
-         <div className="poststyle">
-          
+          <div className="poststyle">
+
             <h2>Lucas Martins </h2>
-             <img width="310px" src="/static/images/lucas.jpg" alt="" />
-          <p>Lucas Martins, Londrinense, 20 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web e Mobile utilizando ferramentas como: NodeJS, JavaScript, NextJS, ReactJS, Angular, Ionic, HMTL, CSS, entre outras. Trabalha na BRID Soluções na área de Qualidade de Dados como analista, densenvolvendo em ferramentas QlikView, QlikSense, 
-              Power BI e Alteryx.
-               Para mais informações do Lucas:  
+            <img width="310px" src="/static/images/lucas.jpg" alt="" />
+            <p>Lucas Martins, Londrinense, 20 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web e Mobile utilizando ferramentas como: NodeJS, JavaScript, NextJS, ReactJS, Angular, Ionic, HMTL, CSS, entre outras. Trabalha na BRID Soluções na área de Qualidade de Dados como analista, densenvolvendo em ferramentas QlikView, QlikSense,
+            Power BI e Alteryx.
           <div>
-           <img width="40px" src="../static/images/linke.jpg" alt="linke"></img>   , 
-           <img width="54px" src="../static/images/logo-github.jpg" alt="github"></img>
-           <p className="technames"> <a href=" https://www.linkedin.com/in/lucas-m-martins/">linkedin</a>, <a href="https://github.com/mendsxx/BlogProducao">github</a> </p>
-           </div>                             
-         </p>
-         </div>                                      
-         
-         <div className="poststyle">
-          <h2>Daniel Moreira</h2>
-            <img width="310px" src="/static/images/daniel.jpg" alt="" />
-                <p> Daniel Moreira, Sertanopolense, 18 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web  utilizando ferramentas como: Angular, NextJS, ReactJS, NodeJS, HMTL, entre outras. Trabalha na JMTI Tecnologia e Soluções e na SDR Viagens.
-                Para mais informações do Daniel:                                
-                   <div>
-                     <img width="40px" src="../static/images/linke.jpg" alt="linke"></img>   , 
-                    <img width="54px" src="../static/images/logo-github.jpg" alt="github"></img>
-                      <p className="technames"> <a href="https://www.linkedin.com/in/daniel-moreira-68177315a/">linkedin</a>, <a href="https://github.com/danielmoreiraunifil">github</a> </p>
-              </div>                             
-           </p>
+                <a className="linkperfil" href="https://www.linkedin.com/in/lucas-m-martins/">
+                  <img className="logoQ" src="../static/images/linke.png" alt="linke"></img>
+                </a>
+                <a className="linkperfil" href="https://github.com/mendsxx">
+                  <img className="logoQ" src="../static/images/logo-github.png" alt="github"></img>
+                </a>
+              </div>
+            </p>
           </div>
 
           <div className="poststyle">
-          <h2>Felipe Lonni</h2> 
-             <img width="310px" src="/static/images/foto.jpg" alt="" />
-               <p>
-                 Felipe Lonni, Cambeense, 19 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento utilizando ferramentas como: Java, NextJS, HTML, entre outras. Trabalha no Sine de Cambé.
-                    Para mais informações do Felipe: 
-                    <div>
-                     <img width="40px" src="../static/images/linke.jpg" alt="linke"></img>   , 
-                    <img width="54px" src="../static/images/logo-github.jpg" alt="github"></img>
-                      <p className="technames"> <a href="https://www.linkedin.com/in/felipe-lonni-127676181">linkedin</a>, <a href="https://github.com/Felps13">github</a> </p>
-                  </div>   
-             </p>
-           </div>
+            <h2>Daniel Moreira</h2>
+            <img width="310px" src="/static/images/daniel.jpg" alt="" />
+            <p> Daniel Moreira, Sertanopolense, 18 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web  utilizando ferramentas como: Angular, NextJS, ReactJS, NodeJS, HMTL, entre outras. Trabalha na JMTI Tecnologia e Soluções e na SDR Viagens.
+            <div>
+                <a className="linkperfil" href="https://www.linkedin.com/in/daniel-moreira-68177315a/">
+                  <img className="logoQ" src="../static/images/linke.png" alt="linke"></img>
+                </a>
+                <a className="linkperfil" href="https://github.com/danielmoreiraunifil">
+                  <img className="logoQ" src="../static/images/logo-github.png" alt="github"></img>
+                </a>
+              </div>
+            </p>
+          </div>
+
+          <div className="poststyle">
+            <h2>Felipe Lonni</h2>
+            <img width="310px" src="/static/images/foto.jpg" alt="" />
+            <p>
+              Felipe Lonni, Cambeense, 19 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento utilizando ferramentas como: Java, NextJS, HTML, entre outras. Trabalha no Sine de Cambé.
+              <div>
+                <a className="linkperfil" href="https://www.linkedin.com/in/felipe-lonni-127676181">
+                  <img className="logoQ" src="../static/images/linke.png" alt="linke"></img>
+                </a>
+                <a className="linkperfil" href="https://github.com/Felps13">
+                  <img className="logoQ" src="../static/images/logo-github.png" alt="github"></img>
+                </a>
+              </div>
+            </p>
+          </div>
+
           {close}
         </article>
 
@@ -130,26 +137,26 @@ class Main extends React.Component {
 
           <p>
             <h2>O que foi usado?</h2>
-            - Next.js: é um framework de aplicativos da web gratuito e de código aberto baseado em Vue.js , Node.js , Webpack 
-            e Babel.js, nos os o usamos para criar visualizações web em JavaScript 
-            utilizando o familiar Vue.js arquivo único componente do sistema 
-            e que pode funcionar tanto como no navegador aplicativo 
+            - Next.js: é um framework de aplicativos da web gratuito e de código aberto baseado em Vue.js , Node.js , Webpack
+            e Babel.js, nos os o usamos para criar visualizações web em JavaScript
+            utilizando o familiar Vue.js arquivo único componente do sistema
+            e que pode funcionar tanto como no navegador aplicativo
             de página única Exibições bem como exibições da Web renderizadas pelo servidor.
-            
+
             - Trello: é um aplicativo de gerenciamento de projeto baseado na web, nos os usamos para desenvolver o projeto de uma maneira mais facil
             e organizada.
 
             - React:O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web, nos os usamos para o desenvolvimento da web
-            
-            - Github:usamos para trabalhar em nosso projeto de uma forma colaborativa planejando o projeto e acompanhando o trabalho. 
-          
+
+            - Github:usamos para trabalhar em nosso projeto de uma forma colaborativa planejando o projeto e acompanhando o trabalho.
+
             </p>
 
-          <p> 
+          <p>
             <h3>Lucas Mendes </h3>
               Ficou responsavel pela
             -Instalação do template
-            -Configuração 
+            -Configuração
             -Personalizaçao do blog
             -Techstack
           </p>
@@ -163,8 +170,8 @@ class Main extends React.Component {
             <h3>Felipe Lonni</h3>
              Ficou responsavel pela
             -Projetos Pessoais
-            -Configuração</p>  
-             
+            -Configuração</p>
+
           {close}
         </article>
 
