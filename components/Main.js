@@ -69,10 +69,10 @@ class Main extends React.Component {
           <h2 className="major">Quem Somos</h2>
           <div className="poststyle">
 
-            <h2>Lucas Mendes</h2>
+            <h2>Lucas Martins</h2>
             <div>
-              <img width="250px" src="/static/images/lucas.jpg" alt="" />
-              <p>Lucas Mendes, Londrinense, 20 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web e Mobile utilizando ferramentas como: NodeJS, JavaScript, NextJS, ReactJS, Angular, Ionic, HMTL, CSS, entre outras. Trabalha na BRID Soluções na área de Qualidade de Dados como analista, densenvolvendo em ferramentas QlikView, QlikSense,
+              <img className="main image" src="/static/images/lucas.jpg" alt="" />
+              <p>Lucas Martins, Londrinense, 20 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web e Mobile utilizando ferramentas como: NodeJS, JavaScript, NextJS, ReactJS, Angular, Ionic, HMTL, CSS, entre outras. Trabalha na BRID Soluções na área de Qualidade de Dados como analista, densenvolvendo em ferramentas QlikView, QlikSense,
               Power BI e Alteryx.
               Para mais informações do Lucas:  https://www.linkedin.com/in/lucas-m-martins/
               https://github.com/mendsxx/BlogProducao
@@ -84,7 +84,7 @@ class Main extends React.Component {
 
           <div className="poststyle">
             <h2>Daniel Moreira</h2>
-            < img width="250px" src="/static/images/perfil.jpg" alt="" />
+            < img className="main image" src="/static/images/perfil.jpg" alt="" />
             <p> Daniel Moreira, Sertanopolense, 18 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web  utilizando ferramentas como: Angular, NextJS, ReactJS, NodeJS, HMTL, entre outras. Trabalha na JMTI Tecnologia e Soluções e na SDR Viagens.
             Para mais informações do Daniel: https://www.linkedin.com/in/daniel-moreira-68177315a/
             https://github.com/danielmoreiraunifil
@@ -93,7 +93,7 @@ class Main extends React.Component {
 
           <div className="poststyle">
             <h2>Felipe Lonni</h2>
-            <img width="250px" src="/static/images/felipe.jpg" alt="" />
+            <img className="main image" src="/static/images/felipe.jpg" alt="" />
             <p>
               Felipe Lonni, Cambeense, 19 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento utilizando ferramentas como: Java, NextJS, HTML, entre outras. Trabalha no Sine de Cambé.
               Para mais informações do Felipe:
