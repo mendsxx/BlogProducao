@@ -96,7 +96,7 @@ class Main extends React.Component {
          
          <div className="poststyle">
           <h2>Daniel Moreira</h2>
-            <img width="310px" src="/static/images/perfil.jpg" alt="" />
+            <img width="310px" src="/static/images/daniel.jpg" alt="" />
                 <p> Daniel Moreira, Sertanopolense, 18 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web  utilizando ferramentas como: Angular, NextJS, ReactJS, NodeJS, HMTL, entre outras. Trabalha na JMTI Tecnologia e Soluções e na SDR Viagens.
                 Para mais informações do Daniel:                                
                    <div>
