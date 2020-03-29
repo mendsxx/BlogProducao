@@ -41,12 +41,14 @@ class Main extends React.Component {
 
            {/* INICIO - ESTRUTURA POST */}
            <div className="poststyle"> {/* Utilizar className*/}
-            <h3>Seu Post</h3>
+            <h3> O QUE SÃO PROJETOS PESSOAIS?</h3>
             <p>
-              Breve descrição sobre o tema
+             Bom o que são projetos pessoais:é um processo ou objetivo que gere satisfação e motivação a um profissional fora de seu trabalho. Pode ser a execução de uma nova ideia, um hobby ou uma viagem, etc.
+             Um projeto pessoal ajuda a testar ideias, a criar caminhos e a realizar novos feitos! gera satisfação e motivação a um profissional fora de seu trabalho. 
+
             </p>
             <p className="postby"> {/* Utilizar className*/}
-                00/00/0000 - Seu nome - Fonte <a href="link">nome.</a>
+                29/03/2020 - Felipe Lonni - Adaptado <a href="https://anajacobs.com.br/blog/2013/09/criando-um-projeto-pessoal/">Projetos pessoais.</a>
             </p>
           </div>
           {/* FIM - ESTRUTURA POST */}
@@ -116,7 +118,7 @@ class Main extends React.Component {
                     <div>
                      <img width="40px" src="../static/images/linke.jpg" alt="linke"></img>   , 
                     <img width="54px" src="../static/images/logo-github.jpg" alt="github"></img>
-                      <p className="technames"> <a href="https://www.linkedin.com/in/daniel-moreira-68177315a/">linkedin</a>, <a href="https://github.com/danielmoreiraunifil">github</a> </p>
+                      <p className="technames"> <a href="https://www.linkedin.com/in/felipe-lonni-127676181">linkedin</a>, <a href="https://github.com/Felps13">github</a> </p>
                   </div>   
              </p>
            </div>
