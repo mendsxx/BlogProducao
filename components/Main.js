@@ -19,9 +19,11 @@ class Main extends React.Component {
               É uma combinação de linguagens de programação, estruturas, bibliotecas, padrões, servidores,
               soluções de UI / UX, software e ferramentas usadas por seus desenvolvedores.
             </p>
+            
             <p className="postby"> {/* Utilizar className*/}
                 28/03/2020 - Lucas Martins - Adaptado de <a href="https://stackshare.io/stacks">stackshare.</a>
             </p>
+            
           </div>
           {/* FIM - ESTRUTURA POST */}
 
@@ -46,7 +48,7 @@ class Main extends React.Component {
           <h2 className="major">Tech Stack</h2>
           <div>
             <h3>Ferramentas utilizadas pelo nosso time! </h3>
-
+            
             <img width="80px" src="../static/images/react.png" alt="ReactJS"></img>
             <img width="80px" src="../static/images/node.png" alt="NodeJS"></img>
             <img width="80px" src="../static/images/js.png" alt="JavaScript"></img>
