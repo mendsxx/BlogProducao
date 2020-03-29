@@ -136,7 +136,7 @@ class Main extends React.Component {
             e que pode funcionar tanto como no navegador aplicativo 
             de página única Exibições bem como exibições da Web renderizadas pelo servidor.
             
-            - Trello: é um aplicativo de gerenciamento de projeto baseado na web, nos os usamos para desenvolver o projeto de uma maneira mais facil
+            - Trello: é um aplicativo de gerenciamento de projeto baseado na Web, nos os usamos para desenvolver o projeto de uma maneira mais facil
             e organizada.
 
             - React:O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web, nos os usamos para o desenvolvimento da web
