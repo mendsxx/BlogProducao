@@ -142,8 +142,13 @@ class Main extends React.Component {
             utilizando o familiar Vue.js arquivo único componente do sistema
             e que pode funcionar tanto como no navegador aplicativo
             de página única Exibições bem como exibições da Web renderizadas pelo servidor.
+<<<<<<< HEAD
 
             - Trello: é um aplicativo de gerenciamento de projeto baseado na web, nos os usamos para desenvolver o projeto de uma maneira mais facil
+=======
+            
+            - Trello: é um aplicativo de gerenciamento de projeto baseado na Web, nos os usamos para desenvolver o projeto de uma maneira mais facil
+>>>>>>> 512a07bfe0e8d2b7c3f369dfe19b2d51c618754e
             e organizada.
 
             - React:O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web, nos os usamos para o desenvolvimento da web
