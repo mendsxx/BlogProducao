@@ -102,7 +102,7 @@ class Main extends React.Component {
 
             <h2>Lucas Martins </h2>
             <img width="310px" src="/static/images/lucas.jpg" alt="" />
-            <p>Lucas Martins, Londrinense, 20 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web e Mobile utilizando ferramentas como: NodeJS, JavaScript, NextJS, ReactJS, Angular, Ionic, HMTL, CSS, entre outras. Trabalha na BRID Soluções na área de Qualidade de Dados como analista, desenvolvendo  em ferramentas QlikView, QlikSense,
+            <p>Lucas Martins, Londrinense, 20 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web e Mobile utilizando ferramentas como: NodeJS, JavaScript, NextJS, ReactJS, Angular, Ionic, HTML, CSS, entre outras. Trabalha na BRID Soluções na área de Qualidade de Dados como analista, desenvolvendo  em ferramentas QlikView, QlikSense,
             Power BI e Alteryx.
           <div>
                 <a className="linkperfil" href="https://www.linkedin.com/in/lucas-m-martins/">
@@ -118,7 +118,7 @@ class Main extends React.Component {
           <div className="poststyle">
             <h2>Daniel Moreira</h2>
             <img width="310px" src="/static/images/daniel.jpg" alt="" />
-            <p> Daniel Moreira, Londrinense, 18 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web  utilizando ferramentas como: Angular, NextJS, ReactJS, NodeJS, HMTL, entre outras. Trabalha na JMTI Tecnologia e Soluções e na SDR Viagens.
+            <p> Daniel Moreira, Londrinense, 18 anos, cursando Engenharia de Software - UNIFIL, tem aprofundado seus conhecimentos em desenvolvimento Web  utilizando ferramentas como: Angular, NextJS, ReactJS, NodeJS, HTML, entre outras. Trabalha na JMTI Tecnologia e Soluções e na SDR Viagens.
             <div>
                 <a className="linkperfil" href="https://www.linkedin.com/in/daniel-moreira-68177315a/">
                   <img className="logoQ" src="../static/images/linke.png" alt="linke"></img>
