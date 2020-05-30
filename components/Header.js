@@ -8,6 +8,7 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('projetos')}}>Projetos Pessoais</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('techstack')}}>Tech Stack</a></li>      
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Quem somos</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Comments')}}>Comentários</a></li>
                 
 
             </ul>
@@ -19,12 +20,24 @@ const Header = (props) => (
                 <p>Neste Blog você pode conhecer um pouco mais sobre o portifólio de nossos desenvolvedores e algumas curiosidades sobre desenvolvimento Web e Mobile.</p>
             </div>
         </div>
-      </header>
-)
+        
+        
+    
+
+      </header>)
+      
 
 Header.propTypes = {
     onOpenArticle: PropTypes.func,
-    timeout: PropTypes.bool
+    timeout: PropTypes.bool    
 }
-
+       
 export default Header
+    
+
+     
+
+
+
+
+

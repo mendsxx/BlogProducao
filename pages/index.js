@@ -5,6 +5,10 @@ import Header from "../components/Header"
 import Main from "../components/Main"
 import Footer from "../components/Footer"
 
+
+
+
+
 class IndexPage extends React.Component {
     constructor(props) {
         super(props)
@@ -18,6 +22,7 @@ class IndexPage extends React.Component {
         this.handleOpenArticle = this.handleOpenArticle.bind(this)
         this.handleCloseArticle = this.handleCloseArticle.bind(this)
     }
+
 
     componentDidMount() {
         this.timeoutId = setTimeout(() => {

@@ -1,7 +1,17 @@
 import PropTypes from 'prop-types';
 
+import React, { Component } from "react"
+import Disqus from "disqus-react"
+
 class Main extends React.Component {
   render() {
+
+    const disqusShortname = "devarena-tech" //found in your Disqus.com dashboard
+      const disqusConfig = {
+        url: "http://localhost:3000", //this.props.pageUrl
+        identifier: "article-id", //this.props.uniqueId
+        title: "Title of Your Article" //this.props.title
+      }
 
     let close = <div className="close" onClick={() => { this.props.onCloseArticle() }}></div>
 
@@ -53,8 +63,7 @@ class Main extends React.Component {
             </p>
 
           </div>
-          {/* FIM - ESTRUTURA POST */}
-
+          {/* FIM - ESTRUTURA POST */}    
 
           {close}
         </article>
@@ -199,6 +208,19 @@ class Main extends React.Component {
           {close}
         </article>
 
+        <article id="Comments" className={`${this.props.article === 'Comments' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+          <h2 className="major">Comentários</h2>
+        
+        <div className="article-container">
+          <Disqus.DiscussionEmbed
+          shortname={disqusShortname}
+          config={disqusConfig}
+          />
+        </div>
+         
+          {close}
+        </article>
+
       </div>
     )
   }
@@ -212,6 +234,10 @@ Main.propTypes = {
   timeout: PropTypes.bool
 }
 
+
+
 export default Main
+
+
 
 
