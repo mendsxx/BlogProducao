@@ -8,9 +8,9 @@ class Main extends React.Component {
 
     const disqusShortname = "devarena-tech" //found in your Disqus.com dashboard
       const disqusConfig = {
-        url: "http://localhost:3000", //this.props.pageUrl
+        url: "devarena.tech", //this.props.pageUrl
         identifier: "article-id", //this.props.uniqueId
-        title: "Title of Your Article" //this.props.title
+        title: "Dev Arena" //this.props.title
       }
 
     let close = <div className="close" onClick={() => { this.props.onCloseArticle() }}></div>
